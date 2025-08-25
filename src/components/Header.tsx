@@ -15,7 +15,7 @@ export default function Header() {
                     <div className="hidden lg:flex items-center">
                         <NavLinks containerStyles="flex items-center gap-x-8" />
                         <Link href="/contact" className="pl-8 pr-4">
-                            <Button>Hire Me</Button>
+                            <Button className="dark:text-white">Hire Me</Button>
                         </Link>
                         <ThemeToggle />
                     </div>
