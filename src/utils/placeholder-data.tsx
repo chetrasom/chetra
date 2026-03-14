@@ -320,6 +320,26 @@ export const projectsData = [
         github: "https://github.com/chetrasom/jobify-dashboard.git",
         type: 'next-js'
     },
+    {
+        num: "07",
+        category: "Frontend Developer",
+        title: "Furnova Furniture Store",
+        description: "A modern full-stack furniture eCommerce web application where users can browse products, save favorites, write reviews, manage their cart, and securely checkout using Stripe. The platform also includes an admin dashboard for managing products, uploading images, and monitoring store sales.",
+        stack: [
+            { name: "Next.js" },
+            { name: "React.js" },
+            { name: "TypeScript" },
+            { name: "TailwindCSS & Shadcn-UI" },
+            { name: "Prisma" },
+            { name: "Supabase (PostgreSQL)" },
+            { name: "Clerk" },
+            { name: "Stripe" }
+        ],
+        image: "/assets/images/furniture.png",
+        live: "https://nextjs-furniture-ecommerce-store-20.vercel.app/",
+        github: "https://github.com/chetrasom/nextjs-furniture-ecommerce-store-2026.git",
+        type: 'next-js'
+    },
 ];
 
 export const contactData: ContactType = [
